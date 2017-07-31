@@ -9,6 +9,11 @@ class BlockFakeGooglebots extends Controller
         $migrator->rollback();
     }
 
+    public function afterClearCache()
+    {
+        Database::truncateTable("googlebot_ips");
+    }
+
     public function beforeInit()
     {
         // @TODO: prüfen ob die IP des Bots bereits in der Datenbak gespeichert hat
