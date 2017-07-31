@@ -5,5 +5,8 @@
 	"controllers": {
 		"BlockFakeGooglebots": "BlockFakeGooglebots.php"
 	},
-	"main_class": "BlockFakeGooglebots"
+	"main_class": "BlockFakeGooglebots",
+	"helpers": {
+		"GoogleBotCheckHelper": "GoogleBotCheckHelper.php"
+	}
 }
