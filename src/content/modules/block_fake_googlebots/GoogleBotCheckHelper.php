@@ -5,7 +5,7 @@ class GoogleBotCheckHelper extends Helper
 
     private static function isValidGoogleIp($ip)
     {
-        $hostname = gethostbyaddr($ip); // "crawl-66-249-66-1.googlebot.com"
+        $hostname = gethostbyaddr($ip);
         return preg_match('/\.googlebot|google\.com$/i', $hostname);
     }
 
