@@ -1,0 +1,9 @@
+{
+	"id": "block_fake_googlebots",
+	"version": "0.1",
+	"description": "Block Fake Googlebot",
+	"categories": [
+		"security"
+	],
+	"compatible_from": "2017.3.12"
+}
