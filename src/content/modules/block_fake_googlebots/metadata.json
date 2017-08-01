@@ -1,6 +1,6 @@
 {
 	"source": "extend",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"embed": false,
 	"controllers": {
 		"BlockFakeGooglebots": "BlockFakeGooglebots.php"
@@ -8,5 +8,9 @@
 	"main_class": "BlockFakeGooglebots",
 	"helpers": {
 		"GoogleBotCheckHelper": "GoogleBotCheckHelper.php"
-	}
+	},
+	"custom_acl": [
+		"block_fake_googlebots"
+	],
+	"admin_permission": "block_fake_googlebots"
 }

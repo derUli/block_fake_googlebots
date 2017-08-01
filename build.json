@@ -1,6 +1,6 @@
 {
 	"id": "block_fake_googlebots",
-	"version": "0.1",
+	"version": "0.0.2",
 	"description": "Block Fake Googlebot",
 	"categories": [
 		"security"
